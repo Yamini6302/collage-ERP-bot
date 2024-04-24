@@ -1,0 +1,165 @@
+{"intents": [
+  {
+      "tag": "greeting",
+      "patterns": ["hi", "hey", "hello there", "good day", "hello"],
+      "responses": ["Hey :-)", "Hello", "Hi there, what can I do for you?", "Hi there, how can I help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["goodbye", "see you later", "Au revoir", "bye", "catch you later", "farewell"],
+      "responses": ["Have a nice day.", "Goodbye!", "Thank you, hope I was helpful."]
+    },
+    {
+      "tag": "creation",
+      "patterns": ["who created you?", "what is your name", "who are you", "how were you made?", "how were you created?", "who built you"],
+      "responses": ["I am Archi, I was created by Amruta Maruti Khangaonkar and Yamini Mahesh, AIML students of AIT."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you","thankyou", "that's helpful", "thanks for the help", "thank you very much", "appreciate it"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "You are most welcome!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["could you help me?", "give me a hand please", "can you help me?", "what can you do for me?", "I need support", "I need help", "support me please"],
+      "responses": ["Sure. Tell me how can I assist you?", "Tell me your problem so that I can assist you.", "Yes, sure. How can I help you?"]
+    },
+    {
+      "tag": "attendance_update",
+      "patterns": ["can I update my attendance", "I want to update my attendance", "change my attendance", "modify attendance records"],
+      "responses": ["No, your attendance details can only be updated by the respective faculty. Please contact the respective faculty for any attendance related queries."]
+    },
+    {
+      "tag": "attendance_check",
+      "patterns": ["how to check my attendance", "where can I find my attendance details", "how do I check my attendance", "view my attendance", "can I see my attendance?"],
+      "responses": ["Sure, your overall attendance will be displayed on the ERP dashboard. For subject-wise attendance, click on the MENU bar on the top left corner of your dashboard and select the ATTENDANCE tab."]
+    },
+    {
+      "tag": "proctor_details",
+      "patterns": ["where can I find my proctor doctor details", "who is my proctor doctor", "proctor doctor contact information", "proctor's name", "proctor email ID"],
+      "responses": ["To know your proctor details, please click on the MENU bar on the top left corner of your dashboard and then select the PROCTOR tab."]
+    },
+    {
+      "tag": "classroom_location",
+      "patterns": ["what is my classroom number", "where is my class", "find my classroom", "classroom location"],
+      "responses": ["Your classrooms for the respective subjects will be displayed on the dashboard."]
+    },
+    {
+      "tag": "student_details_update",
+      "patterns": ["can I update student details", "update my profile", "change my USN", "update college email ID"],
+      "responses": ["Sorry, you do not have the authority to do that. Please contact your proctor for any queries regarding this."]
+    },
+    {
+      "tag": "general_query",
+      "patterns": ["how are you", "what's up", "how's it going"],
+      "responses": ["I'm a bot, so I don't have feelings, but thanks for asking!"]
+    },
+    {
+    "tag":"13",
+    "patterns": ["can i udpate my attendance","i want to update my attendance", "i want to change my attendance"],
+    "responses": ["No, your attendance details can only be updated by the respective faculty. Please contact the respective faculty for any attendance related queries."]
+ },
+  { 
+    "tag": "1",
+    "patterns": ["how to check my attendance", "where can i find my attendnce details","how do i check my attendance","where can i view my attendance details","can i see my attendance?"],
+    "responses": ["Sure, your overall attendance will be displayed on the ERP dashboad and to find your subjectwise attendance click on the MENU bar on the top left corner of your dashboard and select the ATTENDANCE tab."]
+  },
+  {
+    "tag":"2",
+    "patterns": ["where can i find my daily time table","what is my daily time table","which class do i have now","what class do i have now", "where is my class timetable"," how do i see my class timetable"],
+    "responses":["Sure, your up-to-date timetable will be displayed on the ERP dashboad itself along with timings and respective room numbers."]
+ }, 
+ {
+    "tag":"3",
+    "patterns": ["where can i find my proctor details", "proctor", "who is my proctor", " how do i know my proctor","proctor phone number","what is my proctor email id","where can i find my proctor contact id","what is my proctor names","proctor"],
+    "responses":["Sure, inorder to know your proctor details please click on the MENU bar on the top left corner of your dashboard and then select PROCTOR tab."]
+ },
+ {
+    "tag":"4",
+    "patterns": ["where i check my internal marks","where is my ia marks displayed","where can i find my internal assessment  marks", "assessment","how much did i score in my internals", "internal","marks","semester wise"],
+    "responses":["Sure, to view your semester-wise Internal Assessment marks please click on the MENU bar on the top left corner of your dashboard and select the MARKS tab."]
+ },
+  {
+    "tag":"5",
+    "patterns": ["what is my collage email id", " how can i know my collage email id", "where can i find my collage email id"],
+    "responses":["Sure, you can view your college email ID by selecting the MENU bar on the top left corner of your dashboard."]
+ },
+  {
+    "tag":"6",
+    "patterns": ["how can i know my profile details","what is my usn","what is my auid", "what is my collage email id", "which section do i belong?","what is my admission date", "where are my parent details diplayed","what is my parent contact number", "what is my address", "who is my emmergency contact", "where can i find my profile details", "usn", "auid", "collage email id", "section", "admission date", "parent details", "contact", "address", "emmergency contact"],
+    "responses":["Sure, to view your profile details which also includes your personal details please click on the MENU bar on the top left corner of your dashboard and select the MY PROFILE tab."]
+ },
+  {
+    "tag":"7",
+    "patterns": ["how to pay term", "collage", "exam", "uniform"," books", "coursera fee", "what are the steps to do term, collage, exam, uniform, books, coursera fee payment"],
+    "responses":["Sure, for fee payment through ERP click on the MENU bar on the top left corner of your dashboard and select the FEE PAYMENT tab, then choose the fee type and proceed with the payment."]
+ },
+  {
+    "tag":"8",
+    "patterns": ["where can i find my fee receipt, transaction history","where can i see my fee receipt, transaction history","where is my fee receipt, transaction history displayed"],
+    "responses":["Sure, to view your fee receipt or transaction history through ERP click on the MENU bar on the top left corner of your dashboard and select the FEE PAYMENT tab, then choose the FEE RECEIPT VIEW tab and select the required option."]
+ },
+ {
+    "tag":"9",
+    "patterns": ["how do i reset my password","how do i change my password"],
+    "responses": ["Sure, to change or reset your password, please click on the MENU bar on the top left corner of your dashboard and then select CHANGE PASSWORD tab."]
+ },
+ {
+    "tag":"10",
+    "patterns": ["how can i logout", " how to logout from erp"],
+    "responses": ["Sure, to logout from ERP, please click on the MENU bar on the top left corner of your dashboard and then select LOG OUT tab."]
+ },
+ {
+    "tag":"11",
+    "patterns": ["how can i give student feedback","where can i give student feedback"],
+    "responses": ["Sure, to provide your feedback please click on the MENU bar on the top left corner of your dashboard and then select FEEDBACK tab."]
+ },
+ {
+    "tag":"12",
+    "patterns": ["how can i rate the app","where can i rate the app"],
+    "responses": ["Sure, to rate our app please click on the MENU bar on the top left corner of your dashboard and then select RATE THE APP tab."]
+ },
+ 
+ {
+    "tag":"14",
+    "patterns": ["who is my class teacher","how can i know my class teacher"],
+    "responses": ["Sorry, i do not have any information about that."]
+ }, 
+ {
+    "tag":"15",
+    "patterns": ["what is my class room number","where is my class", "where can i find my class room"," which is my class room"],
+    "responses": ["Your classrooms for the respective subjects will be displayed on the dashboard."]
+ }, 
+ {
+    "tag":"16",
+    "patterns": ["can i update student details", "can i update  profile", "can i update usn", "can i update auid", "can i update college email id", "can i update course", "can i update department", "can i update class", "can i update section", "can i update admission", "can i update date of birth","can i update parents contacts","can i update address" ],
+    "responses": ["Sorry you do not have the authority to do that. Please contact your proctor for any queries regarding this."]
+ }, 
+ {
+    "tag":"17",
+    "patterns": ["how can i check for notifications","where should i see the notifications"],
+    "responses": ["Clicking on the bell icon present on the right side of your dashboard will give you all the recent updates related to collage academics."]
+ },
+ {
+     "tag":"18",
+     "patterns": ["how", "check","where","can","find","see","determine","view","internals","exam","timetable","time","table"],
+     "responses": ["Sorry, i do not have that information, please contact your class teacher."]
+ },
+ {
+    "tag":"19",
+    "patterns": ["i want icecream", "i love you", "nonsense", "idiot","where are you from","dance for me", "sing a song"],
+    "responses": ["Sorry, I am just trained to answer for queries related to ERP"]
+ },
+ {
+     "tag": "general_query",
+     "patterns": ["how are you", "what's up", "how's it going"],
+     "responses": ["I'm a bot, so I don't have feelings, but thanks for asking!"]
+ },
+ {
+     "tag": "fallback",
+     "patterns": [],
+     "responses": ["Sorry, I'm not sure how to respond to that."]
+ }   
+
+ ]
+}

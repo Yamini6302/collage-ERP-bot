@@ -1,0 +1,48 @@
+/* styles.qss */
+
+/* Overall window style */
+QMainWindow {
+    background-color: #2E2E2E;
+}
+
+/* Styles for buttons */
+QPushButton {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+QPushButton:hover {
+    background-color: #45a049; /* Darker Green */
+}
+
+/* Styles for text entry */
+QLineEdit {
+    background-color: #333333;
+    color: #FFFFFF;
+    border: 2px solid #4CAF50; /* Green */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QLineEdit:focus {
+    border: 2px solid #45a049; /* Darker Green */
+}
+
+/* Styles for text display area */
+QTextBrowser {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    border: 2px solid #4CAF50; /* Green */
+    border-radius: 5px;
+    padding: 5px;
+}
+
